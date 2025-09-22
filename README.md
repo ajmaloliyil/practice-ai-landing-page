@@ -1,59 +1,117 @@
-# PracticeAiLandingPage
+# DevFlow Landing Page
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.
+A modern, responsive landing page built with Angular and Bootstrap for DevFlow - a developer productivity platform that streamlines your development workflow.
 
-## Development server
+![DevFlow Landing Page](screenshot.png)
 
-To start a local development server, run:
+## Features
 
-```bash
-ng serve
+- 🚀 Modern Angular application using standalone components
+- 💅 Styled with Bootstrap 5 and custom CSS
+- 📱 Fully responsive design
+- 🎨 Custom SVG icons and animations
+- 🌗 Dark theme optimized
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── header/          # Navigation bar component
+│   │   ├── hero/            # Hero section with CTA
+│   │   ├── features/        # Features showcase section
+│   │   ├── testimonials/    # Customer testimonials section
+│   │   └── footer/          # Site footer with navigation
+│   ├── app.ts               # Main app component
+│   ├── app.html            # App template
+│   └── app.css             # Global styles
+└── assets/
+    ├── bolt.svg            # Logo icon
+    └── logos/              # Company logos
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Key Components
 
-## Code scaffolding
+### Header
+- Responsive navigation bar with mobile menu
+- Custom branded logo
+- Sign In button with call-to-action styling
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Hero Section
+- Compelling headline and description
+- Primary call-to-action button
+- Clean, centered layout for maximum impact
+
+### Features Section
+- Three key features with custom icons
+- Interactive hover effects
+- Responsive grid layout
+
+### Testimonials Section
+- Customer testimonials with attribution
+- Company logos showcase
+- Dark theme with modern glass-morphism effect
+
+### Footer
+- Multi-column navigation links
+- Social media connections
+- Copyright and legal information
+
+## Development Setup
+
+## Quick Start
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ajmaloliyil/practice-ai-landing-page.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   cd practice-ai-landing-page
+   npm install
+   ```
+
+3. Start development server:
+   ```bash
+   npm start
+   ```
+
+4. Open browser at `http://localhost:4200`
+
+## Building for Production
 
 ```bash
-ng generate component component-name
+npm run build
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+The production build will be available in the `dist/` directory.
 
-```bash
-ng generate --help
-```
+## Technologies Used
 
-## Building
+- Angular (Latest Version)
+- Bootstrap 5
+- ng-bootstrap
+- TypeScript
+- HTML5/CSS3
 
-To build the project run:
+## Design Principles
 
-```bash
-ng build
-```
+- Clean, modern aesthetic
+- Performance-optimized
+- Mobile-first responsive design
+- Component-based architecture
+- Accessibility best practices
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Contributing
 
-## Running unit tests
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit changes: `git commit -am 'Add new feature'`
+4. Push to branch: `git push origin feature/your-feature`
+5. Submit a pull request
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## License
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is MIT licensed.

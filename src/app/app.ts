@@ -5,11 +5,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgbModule, HeaderComponent, HeroComponent, FeaturesComponent, TestimonialsComponent],
+  imports: [RouterOutlet, NgbModule, HeaderComponent, HeroComponent, FeaturesComponent, TestimonialsComponent, FooterComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

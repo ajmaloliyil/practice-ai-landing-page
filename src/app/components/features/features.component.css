@@ -1,0 +1,26 @@
+.features-section {
+  background-color: #F8F9FA;
+}
+
+.feature-card {
+  background: white;
+  border: 1px solid #E5E7EB;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #1F2937;
+}
+
+h3 {
+  color: #374151;
+}
+
+.text-muted {
+  color: #6B7280 !important;
+}
